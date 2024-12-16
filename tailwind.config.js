@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "my-image": "url(./images/find-talent-2x.jpg)",
+      },
+    },
   },
   plugins: [],
 };
